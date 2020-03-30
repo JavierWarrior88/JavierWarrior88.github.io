@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+    </head>
+    <style>
+    	body {
+            font-size: 12px;
+            background-color: rgb(201, 195, 207);
+        }
+        /* Font-size de body 12 pixeles */
+        h1 {
+            color: rgb(153, 0, 230);
+            background-color: rgb(245, 137, 54);
+			font-size: 2em;
+			text-align: center;
+	    /* Font-size h2 = 1,5 * 12 = 18 pixeles */
+        }  
+        
+         h2 {
+            color: rgb(126, 17, 189);
+			font-size: 1.2em;
+			text-align: center;
+	    /* Font-size h2 = 1,5 * 12 = 18 pixeles */
+        }  
+        
+         h3 {
+            color: rgb(5, 5, 5);
+			font-size: 1em;
+			text-decoration: underline;
+			font-style: italic;
+			text-align: center;
+	    /* Font-size h2 = 1,5 * 12 = 18 pixeles */
+        }  
+        
+        
+         h6 {
+            color: rgb(15, 7, 128);
+			font-size: 0.8em;
+			font-style: italic;
+			
+	    /* Font-size h2 = 1,5 * 12 = 18 pixeles */
+        } 
+        
+
+        
+        p {
+            color: rgb(15, 7, 128);
+            font-family: "Helvetica", sans-serif;
+            background-color: rgb(245, 242, 247);
+            font-family: monospace;
+            
+        }
+        
+        
+         .tit {
+             text-decoration: none;
+             
+
+        }  
+    </style>
+    <body>
+        
+        <h1>Blog</h1>
+
+        <h3>Contenidos</h3>
+        <ul>
+            <a href = "#arduino" ><li>Arduino</li> </a>
+            <a href = "#tiaportal" ><li>Tia Portal</li> </a>
+            <a href = "#css" ><li>CSS y html</li></a>
+            <a href = "#publi" ><li>Publicaciones</li> </a>
+        </ul>
+        
+        <h2 id="arduino">Arduino</h2>
+        <h3 class = "tit">Conocimientos</h3>
+         <ul>
+            <li>C++</li>
+            <li>Curvas sensores anlógicos</li>
+            <li>Funciones</li>
+            <li>If-Else</li>
+            <li>Bucles</li>
+            <li>Array</li>
+            <li>Sensores de ultrasónicos</li>
+            <li>Timers</li>
+                
+         </ul> 
+        
+        <h2 id="tiaportal">TIA Portal</h2>
+        <h3 class = "tit">Conocimientos</h3>
+         <ul>
+            <li>KOP</li>
+            <li>FUP</li>
+            <li>SCL</li>
+            <li>Temporizadores y contadores</li>
+            <li>Marcas internas</li>
+            <li>Comparadores</li>
+            <li>Biestables</li>
+            <li>Flancos</li>
+            <li>Memória y tipo de datos</li>
+            <li>Transferencia de datos</li>
+            <li>Funciones matemáticas</li>
+            <li>HMI</li>
+            <li>Accionamientos sinamic</li>
+            <li>Profinet</li>
+            <li>Programación lineal o estructurada</li>
+            <li>FB, FC y DB</li>
+            <li>Analógica</li>
+            <li>DTL</li>
+            <li>OB´s</li>
+            <li>Control de usuarios</li>
+                
+                
+         </ul> 
+        
+        <h2 id="css">CSS y html</h2>
+        <h3 class = "tit">Conocimientos</h3>
+         <ul>
+            <li>Etiquetas html</li>
+            <li>Propiedades de texto</li>
+            <li>Herramientas de desarrolo</li>
+            <li>Selectores</li>
+            <li>Formas de incrustar</li>
+            <li>Diseño CSS</li>
+                
+                
+                
+         </ul> 
+        
+        <h2 id="publi">Publicaciones</h2>
+        <h3 class = "tit">Aprendiendo</h3>
+        <h6>28/03/2020 El Prat de Llob.</h6>
+        <p>
+        
+Debo de reconocer que el primer día que leí un código de programación me pareció casi imposible de descifrar, conforme poco a poco me voy adentrando en el mundo de la programación, cada vez me doy más cuenta de lo mucho que me queda por aprender, y estoy seguro que jamás dejaré de hacerlo, ahora cuando leo un código en algún lenguaje que puedo más o menos interpretar no soy consciente realmente de lo que aprendí, ya que me parece poco. <br>
+La conclusión hasta ahora es que es un camino muy largo, y todo depende del tiempo que le dedique, a pesar de todo nadie me asegura que cumpla mi objetivo, lo único seguro es que un día sin aprender algo, es un día tirado a la basura.
+ </p>
+
+        <h3 class = "tit">Motivos suficientes</h3>
+        <h6>28/03/2020 El Prat de Llob.</h6>
+        <p>
+        
+
+Todos tenemos experiencias que nos enseñan claramente que deberías no haber hecho, o que deberías hacer, para encontrarte en una situación determinada.<br>
+
+Fusionar motivaciones con necesidades creo que es una de las llaves. El sacrificio es el mismo, pero sabe distinto.</p>        
+        
+    </body>
+</html>
