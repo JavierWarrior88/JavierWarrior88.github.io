@@ -2,162 +2,148 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>My lyrics</title>
-        <style>
-        
-         h1{
-            color: rgb(131, 40, 235);
-        } 
-        
-        h2 {
-            color: rgb(44, 38, 235);
-        }  
-        body {
-            background-color: rgb(136, 150, 137);
-        }   
-        p{
-            color: rgb(97, 7, 171);
-			font-family: "Helvetica", sans-serif;
-        } 
-		#descripcion {
-            color: rgb(245, 255, 246);
-        }
-		.song-lyrics {
-            background-color: orange;
-			font-family: monospace;
-        }
-		.nombre-pagina {
-            color: orange;
-        }
-        </style>
+        <title>Project: Blog</title>
     </head>
+    <style>
+    	body {
+            font-size: 12px;
+            background-color: rgb(201, 195, 207);
+        }
+        /* Font-size de body 12 pixeles */
+        h1 {
+            color: rgb(153, 0, 230);
+            background-color: rgb(245, 137, 54);
+			font-size: 2em;
+			text-align: center;
+	    /* Font-size h2 = 1,5 * 12 = 18 pixeles */
+        }  
+        
+         h2 {
+            color: rgb(126, 17, 189);
+			font-size: 1.2em;
+			text-align: center;
+	    /* Font-size h2 = 1,5 * 12 = 18 pixeles */
+        }  
+        
+         h3 {
+            color: rgb(5, 5, 5);
+			font-size: 1em;
+			text-decoration: underline;
+			font-style: italic;
+			text-align: center;
+	    /* Font-size h2 = 1,5 * 12 = 18 pixeles */
+        }  
+        
+        
+         h6 {
+            color: rgb(15, 7, 128);
+			font-size: 0.8em;
+			font-style: italic;
+			
+	    /* Font-size h2 = 1,5 * 12 = 18 pixeles */
+        } 
+        
+
+        
+        p {
+            color: rgb(15, 7, 128);
+            font-family: "Helvetica", sans-serif;
+            background-color: rgb(245, 242, 247);
+            font-family: monospace;
+            
+        }
+        
+        
+         .tit {
+             text-decoration: none;
+             
+
+        }  
+    </style>
     <body>
+        
+        <h1>Blog</h1>
 
-    <h1>My lyrics</h1>
-	<img src = "https://www.kasandbox.org/programming-images/avatars/starky-sapling.png" alt="starky-sapling" width="100">
-	
-	<h2>Popular Artists</h2>
-    	<img src = "https://www.kasandbox.org/programming-images/space/star.png" alt="star" width="100">
-	
-	    <ul>
-        <li>Queen</li>
-        <li>Linking Park</li>
-        <li>Rage Against The Machine</li>
-    </ul>
-    
-    <h2>Top 3 most famous lyrics</h2>
+        <h3>Contenidos</h3>
+        <ul>
+            <a href = "#arduino" ><li>Arduino</li> </a>
+            <a href = "#tiaportal" ><li>Tia Portal</li> </a>
+            <a href = "#css" ><li>CSS y html</li></a>
+            <a href = "#publi" ><li>Publicaciones</li> </a>
+        </ul>
+        
+        <h2 id="arduino">Arduino</h2>
+        <h3 class = "tit">Conocimientos</h3>
+         <ul>
+            <li>C++</li>
+            <li>Curvas sensores anlógicos</li>
+            <li>Funciones</li>
+            <li>If-Else</li>
+            <li>Bucles</li>
+            <li>Array</li>
+            <li>Sensores de ultrasónicos</li>
+            <li>Timers</li>
+                
+         </ul> 
+        
+        <h2 id="tiaportal">TIA Portal</h2>
+        <h3 class = "tit">Conocimientos</h3>
+         <ul>
+            <li>KOP</li>
+            <li>FUP</li>
+            <li>SCL</li>
+            <li>Temporizadores y contadores</li>
+            <li>Marcas internas</li>
+            <li>Comparadores</li>
+            <li>Biestables</li>
+            <li>Flancos</li>
+            <li>Memória y tipo de datos</li>
+            <li>Transferencia de datos</li>
+            <li>Funciones matemáticas</li>
+            <li>HMI</li>
+            <li>Accionamientos sinamic</li>
+            <li>Profinet</li>
+            <li>Programación lineal o estructurada</li>
+            <li>FB, FC y DB</li>
+            <li>Analógica</li>
+            <li>DTL</li>
+            <li>OB´s</li>
+            <li>Control de usuarios</li>
+                
+                
+         </ul> 
+        
+        <h2 id="css">CSS y html</h2>
+        <h3 class = "tit">Conocimientos</h3>
+         <ul>
+            <li>Etiquetas html</li>
+            <li>Propiedades de texto</li>
+            <li>Herramientas de desarrolo</li>
+            <li>Selectores</li>
+            <li>Formas de incrustar</li>
+            <li>Diseño CSS</li>
+                
+                
+                
+         </ul> 
+        
+        <h2 id="publi">Publicaciones</h2>
+        <h3 class = "tit">Aprendiendo</h3>
+        <h6>28/03/2020 El Prat de Llob.</h6>
+        <p>
+        
+Debo de reconocer que el primer día que leí un código de programación me pareció casi imposible de descifrar, conforme poco a poco me voy adentrando en el mundo de la programación, cada vez me doy más cuenta de lo mucho que me queda por aprender, y estoy seguro que jamás dejaré de hacerlo, ahora cuando leo un código en algún lenguaje que puedo más o menos interpretar no soy consciente realmente de lo que aprendí, ya que me parece poco. <br>
+La conclusión hasta ahora es que es un camino muy largo, y todo depende del tiempo que le dedique, a pesar de todo nadie me asegura que cumpla mi objetivo, lo único seguro es que un día sin aprender algo, es un día tirado a la basura.
+ </p>
 
-	<img src = "https://www.kasandbox.org/programming-images/space/rocketship.png" alt="rocketship" width="100">    
-    <ol>
-        <li>Nirvana – “All Apologies”</li>
-        <li>Leonard Cohen – “So Long, Marianne”</li>
-        <li>Public Enemy – “Black Steel in the Hour of Chaos”</li>
-    </ol>
-    
-    <h2>Basic info</h2>
-    
-    <p id = "descripcion"> <strong class="nombre-pagina"> My lyrics.com</strong> is a <strong>collection of <em> song lyrics </em>,
-	 for a seemingly endless array of artists</strong> — collaboratively
-	 assembled by our large music community and contributing editors.</p>
-    
-    <h2>Songs</h2>
-	
-	<h3>"In The End" Linking Park</h3>
-    
-    <p class="song-lyrics">[Chester Bennington:] <br>
-[Mike Shinoda:] <br>
-One thing I don't know why <br>
-It doesn't even matter how hard you try <br>
-Keep that in mind, I designed this rhyme <br>
-To explain in due time</p>
+        <h3 class = "tit">Motivos suficientes</h3>
+        <h6>28/03/2020 El Prat de Llob.</h6>
+        <p>
+        
 
-    <p class="song-lyrics">[Chester Bennington:] <br>
-All I know <br>
-[Mike Shinoda:] Time is a valuable thing <br>
-Watch it fly by as the pendulum swings <br>
-Watch it count down to the end of the day <br>
-The clock ticks life away</p>
+Todos tenemos experiencias que nos enseñan claramente que deberías no haber hecho, o que deberías hacer, para encontrarte en una situación determinada.<br>
 
-    <p class="song-lyrics">[Chester Bennington:] <br>
-It's so unreal <br>
-[Mike Shinoda:] <br>
-It's so unreal, didn't look out below <br>
-Watch the time go right out the window <br>
-Trying to hold on, but didn't even know <br>
-I wasted it all just to watch you go</p>
-
-    <p class="song-lyrics">[Chester Bennington:] <br>
-Watch you go <br>
-[Mike Shinoda:] <br>
-I kept everything inside and even though I tried, it all fell apart <br>
-What it meant to me will eventually be a memory of a time when I tried so hard</p>
-
-    <p class="song-lyrics">[Chester Bennington:] <br>
-I tried so hard <br>
-And got so far <br>
-But in the end <br>
-It doesn't even matter <br>
-I had to fall <br>
-To lose it all <br>
-But in the end <br>
-It doesn't even matter</p>
-
-    <p class="song-lyrics">[Mike Shinoda:] <br>
-One thing, I don't know why <br>
-It doesn't even matter how hard you try <br>
-Keep that in mind, I designed this rhyme <br>
-To remind myself how I tried so hard</p>
-
-    <p class="song-lyrics">[Chester Bennington:] <br>
-I tried so hard <br>
-[Mike Shinoda:] <br>
-In spite of the way you were mocking me <br>
-Acting like I was part of your property <br>
-Remembering all the times you fought with me <br>
-I'm surprised it got so far</p>
-
-    <p class="song-lyrics">[Chester Bennington:] <br>
-Got so far <br>
-[Mike Shinoda:] <br>
-Things aren't the way they were before <br>
-You wouldn't even recognize me anymore <br>
-Not that you knew me back then <br>
-But it all comes back to me in the end</p>
-
-    <p class="song-lyrics">[Chester Bennington:] <br>
-In the end <br>
-[Mike Shinoda:] <br>
-You kept everything inside and even though I tried, it all fell apart <br>
-What it meant to me will eventually be a memory of a time when I tried so hard</p>
-
-    <p class="song-lyrics">[Chester Bennington:] <br>
-I tried so hard <br>
-And got so far <br>
-But in the end <br>
-It doesn't even matter <br>
-I had to fall <br>
-To lose it all <br>
-But in the end <br>
-It doesn't even matter</p>
-
-    <p class="song-lyrics">I've put my trust in you <br>
-Pushed as far as I can go <br>
-For all this <br>
-There's only one thing you should know</p>
-
-    <p class="song-lyrics">I've put my trust in you <br>
-Pushed as far as I can go <br>
-For all this <br>
-There's only one thing you should know </p>
-
-    <p class="song-lyrics">I tried so hard <br>
-And got so far <br>
-But in the end <br>
-It doesn't even matter <br>
-I had to fall <br>
-To lose it all <br>
-But in the end <br>
-It doesn't even matte <br>
-and bopping them on the head!</p>
+Fusionar motivaciones con necesidades creo que es una de las llaves. El sacrificio es el mismo, pero sabe distinto.</p>        
+        
     </body>
 </html>
